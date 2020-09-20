@@ -1,0 +1,37 @@
+.videocard{
+    margin-bottom: 40px;
+    width: 260px;
+    
+}
+.videocard_thumbnail{
+    height: 140px;
+    width: 250px;
+}
+.videocard_info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.videocard_avatar{
+    margin: 10px 15px;
+    height: 40px !important;
+    width: 40px !important;
+}
+.videocard_text{
+    margin-left: 15px;
+    
+}
+.videocard_text > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    
+}
+.videocard_text > p{
+    color:gray;
+    font-size: 14px;
+}

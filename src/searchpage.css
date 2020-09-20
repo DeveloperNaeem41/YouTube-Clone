@@ -1,0 +1,28 @@
+.searchpage{
+    flex: 0.8;
+    background-color: #f9f9f9;
+}
+.searchpage_filter{
+display: flex;
+padding: 10px 10px;
+color: gray;
+
+}
+.searchpage_filter >h3 {
+    padding-left: 10px;
+    font-weight: 800;
+    
+}
+.icon{
+    font-weight: 800;
+}
+.searchpage >hr {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color:lightgray;
+}
+.searchpage > h3{
+    color: gray;
+}

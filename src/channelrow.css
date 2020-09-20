@@ -1,0 +1,30 @@
+.channelrow{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.channelrow_avatar{
+    margin-left: 60px;
+    margin-right: 40px;
+    height: 130px !important;
+    width: 130px !important;
+}
+.channelrow_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.channelrow_info > p{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.channelrow_info > h4 {
+    font-weight: 500;
+    width: 50%;
+}
