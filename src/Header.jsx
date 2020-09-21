@@ -23,7 +23,7 @@ const Header=()=> {
         <NavLink to='/'>
 
             <div className="header_left">
-            <MenuSharpIcon />
+            <MenuSharpIcon className="header_left_icon" />
             <img className="youtube_logo" 
             src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" 
             alt="youtubelogo" />

@@ -7,6 +7,12 @@
     top: 0;
     background-color: #fafafa;
     z-index: 100;
+ 
+}
+.header_left{
+    /* width: 33%; */
+    display: flex;
+    margin-right: 20px;
 }
 .youtube_logo {
     height: 25px;
@@ -29,7 +35,9 @@
 
 .header_icons{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 33%; */
 }
 
 .header_icon{
@@ -41,3 +49,73 @@
     border: none;
 
 } 
+/* Media queries section to make web responsive */
+
+@media only screen and (max-width:480px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_left{
+        margin-left: 0%;
+    }
+
+    .header_input{
+      border: none;  
+      margin-top: 10px;
+
+    }
+    .header_inputButton{
+    display: flex !important;
+    border: none;
+
+    }
+    .header_icons{
+        display: none;
+    }
+        
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+
+    .header{
+        justify-content: space-between;
+    }
+    .header_left{
+        margin-left: 0%;
+        justify-content: center;
+        /* align-items: center; */
+        /* height: 20px; */
+    
+    }
+ */
+    .header_input{
+      display: flex;
+      margin-left: 5%;
+      width: 45%;
+      height: 20%;
+
+
+    }
+    .header_inputButton{
+        /* border-left: 1px gray !important; */
+        width: 25px  !important;
+        height: 20px !important;
+
+    }
+    .header_icons{
+        width: 35%;
+        margin-right: 0%;
+        /* margin-left: 10px; */
+        /* align-items: center; */
+        margin-right: 0%;
+    
+    }
+    .header_icon{
+        margin-right: 5px !important;
+        width: 25px !important;
+        height: 25px !important;
+    
+    }
+        
+}
